@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.78276">
+    <testcase classname="Login feature" name="Skenario Login dengan form login kosong" time="12.78276">
+        <system-out><![CDATA[Given I Open Browser and navigate to Website................................passed
+When I click login button without input form................................passed
+And I verify get error required both field..................................passed
+Then I verify still on the login page.......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

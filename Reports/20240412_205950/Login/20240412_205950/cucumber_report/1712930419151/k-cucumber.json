@@ -1,0 +1,93 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "eb49a7a6-f892-45be-a2da-2a76f82cb6f2",
+        "line": 28,
+        "name": "Skenario Login dengan form password kosong",
+        "description": "",
+        "id": "login-feature;skenario-login-dengan-form-password-kosong",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8386245900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I Open Browser and navigate to Website",
+            "match": {
+              "location": "login.OpenBrowserAndNavigateToWebsite()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "ea3db65a-9db3-4017-9740-3e50b1ef4f8b"
+          },
+          {
+            "result": {
+              "duration": 1337053500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click login button without input password",
+            "match": {
+              "location": "login.ClickLoginWithoutFillpassword()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "e44c1730-3062-4924-8071-4e91f1e71ff3"
+          },
+          {
+            "result": {
+              "duration": 899248700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I verify get error required password field",
+            "match": {
+              "location": "login.I_verify_getErrorOnpasswordField()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "9a6e1c7e-6869-49b2-956d-f688e89dd958"
+          },
+          {
+            "result": {
+              "duration": 271254500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verify still on the login page",
+            "match": {
+              "location": "login.I_verify_still_on_Login_Page()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "693edb2a-4c18-47cc-89a9-b7100b278786"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Login_null_password"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/fathi/Katalon Studio/OrangeHRM/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

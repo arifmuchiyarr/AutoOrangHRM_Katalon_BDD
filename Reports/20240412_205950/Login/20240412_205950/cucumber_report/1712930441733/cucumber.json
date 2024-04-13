@@ -1,0 +1,88 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 42,
+        "name": "Skenario Login dengan form password invalid",
+        "description": "",
+        "id": "login-feature;skenario-login-dengan-form-password-invalid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10774288900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Open Browser and navigate to Website",
+            "match": {
+              "location": "login.OpenBrowserAndNavigateToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3045202500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click login button with invalid input password",
+            "match": {
+              "location": "login.ClickLoginWithinvalidpassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1322163200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I verify get error error Invalid Credential",
+            "match": {
+              "location": "login.I_verify_getErrorOinvalidCredential()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263655500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I verify still on the login page",
+            "match": {
+              "location": "login.I_verify_still_on_Login_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Login_invalid_password"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/fathi/Katalon Studio/OrangeHRM/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

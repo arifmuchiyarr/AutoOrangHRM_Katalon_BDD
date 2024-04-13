@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="77.439" tests="6" failures="0" errors="0">
+   <testsuite name="Login" tests="6" failures="0" errors="0" time="77.439" skipped="0" timestamp="12-04-2024T20:59:54" hostname="fathi - LAPTOP-I66R1MIS" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950"/>
+         <property name="logFiles" value="C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930406302.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930406709.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930408248.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930416289.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930417387.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930418605.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930427394.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930428450.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930429658.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930437069.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930438742.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930441162.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930452372.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930454025.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930456781.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930467960.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930469612.png, C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930471907.png"/>
+         <property name="hostName" value="fathi - LAPTOP-I66R1MIS"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.19"/>
+         <property name="sessionId" value="3e0a18a10e101454b4dd270e63c07472"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Runner/Login/Negatif/Login - tanpa fill form" time="13.663" classname="Test Cases/Runner/Login/Negatif/Login - tanpa fill form" status="PASSED">
+         <system-out><![CDATA[12-04-2024T20:59:55 - [TEST_CASE][PASSED] - Test Cases/Runner/Login/Negatif/Login - tanpa fill form: Test Cases/Runner/Login/Negatif/Login - tanpa fill form
+
+12-04-2024T20:59:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+12-04-2024T20:59:55 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+12-04-2024T20:59:55 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Login.feature", "@Login_null_form"): Feature file: 'Include/features/Login.feature' was passed
+
+12-04-2024T20:59:55 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'C:\Users\fathi\Katalon Studio\OrangeHRM\Reports\20240412_205950\Login\20240412_205950/cucumber_report/1712930395435'...
+
+12-04-2024T20:59:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Skenario Login dengan form login kosong: SCENARIO Skenario Login dengan form login kosong
+
+12-04-2024T20:59:55 - [TEST_STEP][PASSED] - I Open Browser and navigate to Website: I Open Browser and navigate to Website
+
+12-04-2024T20:59:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-04-2024T20:59:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-04-2024T21:00:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+12-04-2024T21:00:05 - [MESSAGE][PASSED] - Current window maximized
+
+12-04-2024T21:00:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-04-2024T21:00:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:06 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930406302.png]]
+
+12-04-2024T21:00:06 - [MESSAGE][PASSED] - I Open Browser and navigate to Website
+
+12-04-2024T21:00:06 - [TEST_STEP][PASSED] - I click login button without input form: I click login button without input form
+
+12-04-2024T21:00:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930406709.png]]
+
+12-04-2024T21:00:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+12-04-2024T21:00:07 - [MESSAGE][PASSED] - I click login button without input form
+
+12-04-2024T21:00:07 - [TEST_STEP][PASSED] - I verify get error required both field: I verify get error required both field
+
+12-04-2024T21:00:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:07 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:07 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930408248.png]]
+
+12-04-2024T21:00:08 - [MESSAGE][PASSED] - I verify get error required both field
+
+12-04-2024T21:00:08 - [TEST_STEP][PASSED] - I verify still on the login page: I verify still on the login page
+
+12-04-2024T21:00:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:08 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:08 - [MESSAGE][PASSED] - I verify still on the login page
+
+12-04-2024T21:00:08 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Runner/Login/Negatif/Login - tanpa fill username" time="10.253" classname="Test Cases/Runner/Login/Negatif/Login - tanpa fill username" status="PASSED">
+         <system-out><![CDATA[12-04-2024T21:00:08 - [TEST_CASE][PASSED] - Test Cases/Runner/Login/Negatif/Login - tanpa fill username: Test Cases/Runner/Login/Negatif/Login - tanpa fill username
+
+12-04-2024T21:00:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+12-04-2024T21:00:08 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+12-04-2024T21:00:08 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Login.feature", "@Login_null_username"): Feature file: 'Include/features/Login.feature' was passed
+
+12-04-2024T21:00:08 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'C:\Users\fathi\Katalon Studio\OrangeHRM\Reports\20240412_205950\Login\20240412_205950/cucumber_report/1712930408930'...
+
+12-04-2024T21:00:08 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Skenario Login dengan form username kosong: SCENARIO Skenario Login dengan form username kosong
+
+12-04-2024T21:00:08 - [TEST_STEP][PASSED] - I Open Browser and navigate to Website: I Open Browser and navigate to Website
+
+12-04-2024T21:00:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-04-2024T21:00:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-04-2024T21:00:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-04-2024T21:00:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+12-04-2024T21:00:15 - [MESSAGE][PASSED] - Current window maximized
+
+12-04-2024T21:00:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-04-2024T21:00:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:16 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930416289.png]]
+
+12-04-2024T21:00:16 - [MESSAGE][PASSED] - I Open Browser and navigate to Website
+
+12-04-2024T21:00:16 - [TEST_STEP][PASSED] - I click login button without input username: I click login button without input username
+
+12-04-2024T21:00:17 - [MESSAGE][PASSED] - Text 'admin123' is set on object ''
+
+12-04-2024T21:00:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930417387.png]]
+
+12-04-2024T21:00:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+12-04-2024T21:00:17 - [MESSAGE][PASSED] - I click login button without input username
+
+12-04-2024T21:00:17 - [TEST_STEP][PASSED] - I verify get error required username field: I verify get error required username field
+
+12-04-2024T21:00:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:18 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930418605.png]]
+
+12-04-2024T21:00:18 - [MESSAGE][PASSED] - I verify get error required username field
+
+12-04-2024T21:00:18 - [TEST_STEP][PASSED] - I verify still on the login page: I verify still on the login page
+
+12-04-2024T21:00:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:19 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:19 - [MESSAGE][PASSED] - I verify still on the login page
+
+12-04-2024T21:00:19 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Runner/Login/Negatif/Login - tanpa fill password" time="11.061" classname="Test Cases/Runner/Login/Negatif/Login - tanpa fill password" status="PASSED">
+         <system-out><![CDATA[12-04-2024T21:00:19 - [TEST_CASE][PASSED] - Test Cases/Runner/Login/Negatif/Login - tanpa fill password: Test Cases/Runner/Login/Negatif/Login - tanpa fill password
+
+12-04-2024T21:00:19 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+12-04-2024T21:00:19 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+12-04-2024T21:00:19 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Login.feature", "@Login_null_password"): Feature file: 'Include/features/Login.feature' was passed
+
+12-04-2024T21:00:19 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'C:\Users\fathi\Katalon Studio\OrangeHRM\Reports\20240412_205950\Login\20240412_205950/cucumber_report/1712930419151'...
+
+12-04-2024T21:00:19 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Skenario Login dengan form password kosong: SCENARIO Skenario Login dengan form password kosong
+
+12-04-2024T21:00:19 - [TEST_STEP][PASSED] - I Open Browser and navigate to Website: I Open Browser and navigate to Website
+
+12-04-2024T21:00:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-04-2024T21:00:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-04-2024T21:00:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-04-2024T21:00:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+12-04-2024T21:00:26 - [MESSAGE][PASSED] - Current window maximized
+
+12-04-2024T21:00:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-04-2024T21:00:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:27 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930427394.png]]
+
+12-04-2024T21:00:27 - [MESSAGE][PASSED] - I Open Browser and navigate to Website
+
+12-04-2024T21:00:27 - [TEST_STEP][PASSED] - I click login button without input password: I click login button without input password
+
+12-04-2024T21:00:28 - [MESSAGE][PASSED] - Text 'Admin' is set on object ''
+
+12-04-2024T21:00:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930428450.png]]
+
+12-04-2024T21:00:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+12-04-2024T21:00:28 - [MESSAGE][PASSED] - I click login button without input password
+
+12-04-2024T21:00:28 - [TEST_STEP][PASSED] - I verify get error required password field: I verify get error required password field
+
+12-04-2024T21:00:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:29 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930429658.png]]
+
+12-04-2024T21:00:29 - [MESSAGE][PASSED] - I verify get error required password field
+
+12-04-2024T21:00:29 - [TEST_STEP][PASSED] - I verify still on the login page: I verify still on the login page
+
+12-04-2024T21:00:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:30 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:30 - [MESSAGE][PASSED] - I verify still on the login page
+
+12-04-2024T21:00:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Runner/Login/Negatif/Login - invalid username" time="11.494" classname="Test Cases/Runner/Login/Negatif/Login - invalid username" status="PASSED">
+         <system-out><![CDATA[12-04-2024T21:00:30 - [TEST_CASE][PASSED] - Test Cases/Runner/Login/Negatif/Login - invalid username: Test Cases/Runner/Login/Negatif/Login - invalid username
+
+12-04-2024T21:00:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+12-04-2024T21:00:30 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+12-04-2024T21:00:30 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Login.feature", "@Login_invalid_username"): Feature file: 'Include/features/Login.feature' was passed
+
+12-04-2024T21:00:30 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'C:\Users\fathi\Katalon Studio\OrangeHRM\Reports\20240412_205950\Login\20240412_205950/cucumber_report/1712930430228'...
+
+12-04-2024T21:00:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Skenario Login dengan form username invalid: SCENARIO Skenario Login dengan form username invalid
+
+12-04-2024T21:00:30 - [TEST_STEP][PASSED] - I Open Browser and navigate to Website: I Open Browser and navigate to Website
+
+12-04-2024T21:00:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-04-2024T21:00:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-04-2024T21:00:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-04-2024T21:00:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+12-04-2024T21:00:36 - [MESSAGE][PASSED] - Current window maximized
+
+12-04-2024T21:00:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-04-2024T21:00:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:36 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930437069.png]]
+
+12-04-2024T21:00:37 - [MESSAGE][PASSED] - I Open Browser and navigate to Website
+
+12-04-2024T21:00:37 - [TEST_STEP][PASSED] - I click login button with invalid input username: I click login button with invalid input username
+
+12-04-2024T21:00:37 - [MESSAGE][PASSED] - Text 'Admin123' is set on object ''
+
+12-04-2024T21:00:38 - [MESSAGE][PASSED] - Text 'admin123' is set on object ''
+
+12-04-2024T21:00:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930438742.png]]
+
+12-04-2024T21:00:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+12-04-2024T21:00:39 - [MESSAGE][PASSED] - I click login button with invalid input username
+
+12-04-2024T21:00:39 - [TEST_STEP][PASSED] - I verify get error error Invalid Credential: I verify get error error Invalid Credential
+
+12-04-2024T21:00:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:40 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930441162.png]]
+
+12-04-2024T21:00:41 - [MESSAGE][PASSED] - I verify get error error Invalid Credential
+
+12-04-2024T21:00:41 - [TEST_STEP][PASSED] - I verify still on the login page: I verify still on the login page
+
+12-04-2024T21:00:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:41 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:41 - [MESSAGE][PASSED] - I verify still on the login page
+
+12-04-2024T21:00:41 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Runner/Login/Negatif/Login - invalid password" time="15.586" classname="Test Cases/Runner/Login/Negatif/Login - invalid password" status="PASSED">
+         <system-out><![CDATA[12-04-2024T21:00:41 - [TEST_CASE][PASSED] - Test Cases/Runner/Login/Negatif/Login - invalid password: Test Cases/Runner/Login/Negatif/Login - invalid password
+
+12-04-2024T21:00:41 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+12-04-2024T21:00:41 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+12-04-2024T21:00:41 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Login.feature", "@Login_invalid_password"): Feature file: 'Include/features/Login.feature' was passed
+
+12-04-2024T21:00:41 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'C:\Users\fathi\Katalon Studio\OrangeHRM\Reports\20240412_205950\Login\20240412_205950/cucumber_report/1712930441733'...
+
+12-04-2024T21:00:41 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Skenario Login dengan form password invalid: SCENARIO Skenario Login dengan form password invalid
+
+12-04-2024T21:00:41 - [TEST_STEP][PASSED] - I Open Browser and navigate to Website: I Open Browser and navigate to Website
+
+12-04-2024T21:00:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-04-2024T21:00:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-04-2024T21:00:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-04-2024T21:00:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+12-04-2024T21:00:51 - [MESSAGE][PASSED] - Current window maximized
+
+12-04-2024T21:00:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-04-2024T21:00:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:52 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930452372.png]]
+
+12-04-2024T21:00:52 - [MESSAGE][PASSED] - I Open Browser and navigate to Website
+
+12-04-2024T21:00:52 - [TEST_STEP][PASSED] - I click login button with invalid input password: I click login button with invalid input password
+
+12-04-2024T21:00:53 - [MESSAGE][PASSED] - Text 'Admin' is set on object ''
+
+12-04-2024T21:00:53 - [MESSAGE][PASSED] - Text 'admin1234' is set on object ''
+
+12-04-2024T21:00:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930454025.png]]
+
+12-04-2024T21:00:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+12-04-2024T21:00:55 - [MESSAGE][PASSED] - I click login button with invalid input password
+
+12-04-2024T21:00:55 - [TEST_STEP][PASSED] - I verify get error error Invalid Credential: I verify get error error Invalid Credential
+
+12-04-2024T21:00:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:56 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930456781.png]]
+
+12-04-2024T21:00:56 - [MESSAGE][PASSED] - I verify get error error Invalid Credential
+
+12-04-2024T21:00:56 - [TEST_STEP][PASSED] - I verify still on the login page: I verify still on the login page
+
+12-04-2024T21:00:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:00:57 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:00:57 - [MESSAGE][PASSED] - I verify still on the login page
+
+12-04-2024T21:00:57 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Runner/Login/Negatif/Login - invalid username dan password" time="15.126" classname="Test Cases/Runner/Login/Negatif/Login - invalid username dan password" status="PASSED">
+         <system-out><![CDATA[12-04-2024T21:00:57 - [TEST_CASE][PASSED] - Test Cases/Runner/Login/Negatif/Login - invalid username dan password: Test Cases/Runner/Login/Negatif/Login - invalid username dan password
+
+12-04-2024T21:00:57 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+12-04-2024T21:00:57 - [TEST_STEP][PASSED] - addDefaultPackages(): null
+
+12-04-2024T21:00:57 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Login.feature", "@Login_invalid_username_password"): Feature file: 'Include/features/Login.feature' was passed
+
+12-04-2024T21:00:57 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Login.feature' and extract report to folder: 'C:\Users\fathi\Katalon Studio\OrangeHRM\Reports\20240412_205950\Login\20240412_205950/cucumber_report/1712930457320'...
+
+12-04-2024T21:00:57 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Skenario Login dengan form username dan password invalid: SCENARIO Skenario Login dengan form username dan password invalid
+
+12-04-2024T21:00:57 - [TEST_STEP][PASSED] - I Open Browser and navigate to Website: I Open Browser and navigate to Website
+
+12-04-2024T21:00:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+12-04-2024T21:00:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+12-04-2024T21:00:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+12-04-2024T21:01:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
+
+12-04-2024T21:01:06 - [MESSAGE][PASSED] - Current window maximized
+
+12-04-2024T21:01:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+12-04-2024T21:01:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:01:07 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:01:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930467960.png]]
+
+12-04-2024T21:01:08 - [MESSAGE][PASSED] - I Open Browser and navigate to Website
+
+12-04-2024T21:01:08 - [TEST_STEP][PASSED] - I click login button with invalid input username dan password: I click login button with invalid input username dan password
+
+12-04-2024T21:01:08 - [MESSAGE][PASSED] - Text 'Admin234' is set on object ''
+
+12-04-2024T21:01:09 - [MESSAGE][PASSED] - Text 'admin1234' is set on object ''
+
+12-04-2024T21:01:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930469612.png]]
+
+12-04-2024T21:01:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+12-04-2024T21:01:10 - [MESSAGE][PASSED] - I click login button with invalid input username dan password
+
+12-04-2024T21:01:10 - [TEST_STEP][PASSED] - I verify get error error Invalid Credential: I verify get error error Invalid Credential
+
+12-04-2024T21:01:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:01:11 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:01:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\fathi\\Katalon Studio\\OrangeHRM\\Reports\\20240412_205950\\Login\\20240412_205950\\1712930471907.png]]
+
+12-04-2024T21:01:12 - [MESSAGE][PASSED] - I verify get error error Invalid Credential
+
+12-04-2024T21:01:12 - [TEST_STEP][PASSED] - I verify still on the login page: I verify still on the login page
+
+12-04-2024T21:01:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+12-04-2024T21:01:12 - [MESSAGE][PASSED] - Object '' is present
+
+12-04-2024T21:01:12 - [MESSAGE][PASSED] - I verify still on the login page
+
+12-04-2024T21:01:12 - [MESSAGE][PASSED] - Feature file: 'Include/features/Login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-04-2024T20:59:54 - [TEST_SUITE][PASSED] - Login: Test Cases/Runner/Login/Negatif/Login - invalid username dan password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

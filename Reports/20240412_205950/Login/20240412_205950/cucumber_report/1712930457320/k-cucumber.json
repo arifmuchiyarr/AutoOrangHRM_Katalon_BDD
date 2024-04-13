@@ -1,0 +1,93 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "cd25f60d-7e04-49dc-8730-e0d2961c0ae1",
+        "line": 49,
+        "name": "Skenario Login dengan form username dan password invalid",
+        "description": "",
+        "id": "login-feature;skenario-login-dengan-form-username-dan-password-invalid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10761124100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I Open Browser and navigate to Website",
+            "match": {
+              "location": "login.OpenBrowserAndNavigateToWebsite()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "c50491d6-c022-417b-a7ca-60fe5ef14431"
+          },
+          {
+            "result": {
+              "duration": 2712944400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I click login button with invalid input username dan password",
+            "match": {
+              "location": "login.ClickLoginWithinvalidusernamedanpassword()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "75d1edf2-c951-4688-aca4-71283ae5272f"
+          },
+          {
+            "result": {
+              "duration": 1219520900,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I verify get error error Invalid Credential",
+            "match": {
+              "location": "login.I_verify_getErrorOinvalidCredential()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "1c29a91f-cdb7-4cf4-87fd-66321fa5c97d"
+          },
+          {
+            "result": {
+              "duration": 268341100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I verify still on the login page",
+            "match": {
+              "location": "login.I_verify_still_on_Login_Page()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e9faffaa-2882-4eae-93d2-5edaf4f8e7ec"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Login_invalid_username_password"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/fathi/Katalon Studio/OrangeHRM/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

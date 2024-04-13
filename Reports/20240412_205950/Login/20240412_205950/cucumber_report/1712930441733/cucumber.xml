@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.414773">
+    <testcase classname="Login feature" name="Skenario Login dengan form password invalid" time="15.414773">
+        <system-out><![CDATA[Given I Open Browser and navigate to Website................................passed
+When I click login button with invalid input password.......................passed
+And I verify get error error Invalid Credential.............................passed
+Then I verify still on the login page.......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
